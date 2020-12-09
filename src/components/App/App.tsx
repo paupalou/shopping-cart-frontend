@@ -1,14 +1,13 @@
 import React from 'react';
+
+import Products from 'containers/Products';
 import { AppStyles } from './AppStyles';
-import Counter from '../../containers/Counter';
 
 function App() {
   return (
-      <AppStyles className="App">
-          <header className="App-header">
-              <Counter />
-          </header>
-      </AppStyles>
+    <AppStyles className="App">
+      <Products />
+    </AppStyles>
   );
 }
 
