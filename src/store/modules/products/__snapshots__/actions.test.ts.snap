@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products Actions Decrement quantity action 1`] = `
+Object {
+  "id": 1,
+  "type": "DECREMENT_PRODUCT_QUANTITY",
+}
+`;
+
+exports[`Products Actions Increment quantity action 1`] = `
+Object {
+  "id": 1,
+  "type": "INCREMENT_PRODUCT_QUANTITY",
+}
+`;
+
+exports[`Products Actions Request Failure action 1`] = `
+Object {
+  "type": "FETCH_ALL_PRODUCTS_FAILURE",
+}
+`;
+
+exports[`Products Actions Request Success action 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "customerPrice": 50,
+      "id": 1,
+      "name": "Tomato",
+    },
+    Object {
+      "customerPrice": 90,
+      "id": 2,
+      "name": "Banana",
+    },
+  ],
+  "type": "FETCH_ALL_PRODUCTS_SUCCESS",
+}
+`;
+
+exports[`Products Actions Request action 1`] = `
+Object {
+  "type": "FETCH_ALL_PRODUCTS_REQUEST",
+}
+`;
