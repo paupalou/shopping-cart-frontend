@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart actions Add products to cart failure action 1`] = `
+Object {
+  "type": "ADD_PRODUCTS_TO_CART_FAILURE",
+}
+`;
+
+exports[`Cart actions Add products to cart request action 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "id": 1,
+      "quantity": 2,
+    },
+    Object {
+      "id": 4,
+      "quantity": 5,
+    },
+  ],
+  "type": "ADD_PRODUCTS_TO_CART_REQUEST",
+}
+`;
+
+exports[`Cart actions Add products to cart success action 1`] = `
+Object {
+  "payload": Object {
+    "error": false,
+    "items": Array [
+      Object {
+        "id": 1,
+        "name": "Soup",
+        "price": "$100.00",
+        "quantity": 2,
+        "total": "$200.00",
+      },
+    ],
+    "loading": false,
+    "total": "$200.00",
+  },
+  "type": "ADD_PRODUCTS_TO_CART_SUCCESS",
+}
+`;
